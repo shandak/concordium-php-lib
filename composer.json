@@ -1,0 +1,29 @@
+{
+  "name": "aesirxio/concordium-lib",
+  "description": "gRPC PHP client for concordium with useful helpers",
+  "type": "library",
+  "license": "GNU General Public License v3.0",
+  "authors": [
+    {
+      "name": "Volodymyr Shandak",
+      "email": "vladimir@redweb.dk"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Concordium\\": "grpc/Concordium/",
+      "GPBMetadata\\": "grpc/GPBMetadata/",
+      "Aesirx\\Concordium\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-sodium": "*",
+    "ext-grpc": "*",
+    "ext-bcmath": "*",
+    "grpc/grpc": "~1.42.0",
+    "google/protobuf": "~3.21.12",
+    "stephenhill/base58": "^1.1"
+  }
+}
