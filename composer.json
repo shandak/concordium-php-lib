@@ -2,6 +2,7 @@
   "name": "aesirxio/concordium-lib",
   "description": "gRPC PHP client for concordium with useful helpers",
   "type": "library",
+  "keywords": ["rpc", "concordium"],
   "license": "GNU General Public License v3.0",
   "authors": [
     {
